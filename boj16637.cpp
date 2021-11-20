@@ -6,7 +6,7 @@ using namespace std;
 
 int n;
 string s;
-int ret;
+int ret = -987654321;
 
 int cal(int a, int b, char op) {
 	if (op == '+') return a + b;
